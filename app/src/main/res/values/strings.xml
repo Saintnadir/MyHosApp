@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">HostelApp</string>
+    <string name="button">Button</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="view_hostels">View Hostels</string>
+    <string name="quit">Quit</string>
+    <string name="hostel_list">Hostel List</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="hostel">Hostel</string>
+    <string name="price">Price</string>
+    <string name="location">Location</string>
+    <string name="todo">TODO</string>
+    <string name="enter_your_username">Enter your Username</string>
+    <string name="enter_your_name">enter_your_username</string>
+    <string name="enter_passcode">Enter Passcode</string>
+    <string name="login">Login</string>
+
+    <string-array name="hostels">
+        <item>Tripple B Hostel</item>
+        <item>Mark Hostel</item>
+        <item>White Hostels</item>
+        <item>Elite Hostels</item>
+        <item>Vans Hostels</item>
+        <item>TankHill Hostels</item>
+        <item>Desire Hostels</item>
+        <item>El Poco Loco Hostels</item>
+        <item>Hasten Hostels</item>
+    </string-array>
+    <string-array name="prices">
+        <item>Singles_500.000</item>
+        <item>Doubles_1.000.000
+              Singles_700.000</item>
+        <item>Singles_550.000</item>
+        <item>Doubles_1.500.000
+              Singles_750.000</item>
+        <item>Singles_850.000</item>
+        <item>Doubles_600.000@</item>
+        <item>Singles_350.000
+              Doubles_700.000</item>
+        <item>Singles_650.000
+              Doubles_1.400.000</item>
+        <item>Singles_700.000</item>
+    </string-array>
+    <string-array name="locations">
+        <item>TASO Village, 5Km from the University</item>
+        <item>TASO Village, 5.3km near Tripple B Hostels</item>
+        <item>TASO Village. 8Km away from the university</item>
+        <item>Kiswahili Village,Mbarara Mun. 22Km from the University Area.Located in town area</item>
+        <item>BOMA Village, 11Km from the University.Cool and Pleasant Environment</item>
+        <item>Unknown distance away from the University.Kacheka Village near Big Fan Recreation Center</item>
+        <item>Kashanyarazi Village,It is 4.4km from the University.Its is very dusty.</item>
+        <item>TASO Village.Opposite Lillies Hotel.It is very Convinent.</item>
+        <item>Rwebikona Village.It is 20km.</item>
+    </string-array>
+
+
+</resources>
