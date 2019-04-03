@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         secondActivityBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), SecondActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), FragmentClass.class);
 
                 startActivity(startIntent);
             }
@@ -25,6 +25,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    @Override
+    public void supportInvalidateOptionsMenu() {
+        super.supportInvalidateOptionsMenu();
+    }
+
     public void quit(View view){
         Intent showDetailActivity = new Intent(this, LoginActivity.class);
         startActivity(showDetailActivity);

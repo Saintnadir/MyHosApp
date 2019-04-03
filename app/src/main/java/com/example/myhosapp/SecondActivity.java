@@ -23,7 +23,7 @@ public class SecondActivity extends AppCompatActivity {
         Button mybutton;
 
         Resources res =getResources();
-        myListView =(ListView) findViewById(R.id.myListView);
+        myListView =findViewById(R.id.myListView);
         hostels = res.getStringArray(R.array.hostels);
         prices =res.getStringArray(R.array.prices);
         locations=res.getStringArray(R.array.locations);
