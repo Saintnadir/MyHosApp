@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-<item android:id="@+id/setting"
-    app:showAsAction="always"
-    android:title="Settings"/>
+    <item android:id="@+id/con"
+        app:showAsAction="always"
+        android:title="Connections"/>
+    <item
+        android:id="@+id/con"
+        android:title="connect" />
 </menu>

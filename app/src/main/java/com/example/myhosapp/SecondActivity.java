@@ -11,9 +11,9 @@ import android.widget.ListView;
 
 public class SecondActivity extends AppCompatActivity {
     ListView myListView;
-    String[]hostels;
-    String[]prices;
-    String[]locations;
+    String[] hostels;
+    String[] prices;
+    String[] locations;
     Button qt;
 
     @Override
@@ -22,13 +22,13 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
         Button mybutton;
 
-        Resources res =getResources();
-        myListView =findViewById(R.id.myListView);
+        Resources res = getResources();
+        myListView = findViewById(R.id.myListView);
         hostels = res.getStringArray(R.array.hostels);
-        prices =res.getStringArray(R.array.prices);
-        locations=res.getStringArray(R.array.locations);
+        prices = res.getStringArray(R.array.prices);
+        locations = res.getStringArray(R.array.locations);
 
-        hostelAdapter hostelAdapter= new hostelAdapter(this, hostels, prices, locations);
+        hostelAdapter hostelAdapter = new hostelAdapter(this, hostels, prices, locations);
         myListView.setAdapter(hostelAdapter);
 
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -41,6 +41,7 @@ public class SecondActivity extends AppCompatActivity {
         });
 
 
-        }
-
     }
+
+
+}
